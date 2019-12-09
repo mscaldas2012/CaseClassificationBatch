@@ -29,7 +29,7 @@ import java.util.Map;
 public class BatchConfiguration {
 
 	private static final String SELECT_QUERY = "SELECT state, patId, dtSpec";
-	private static final String FROM_QUERY ="FROM transmissionHeader";
+	private static final String FROM_QUERY   = "FROM transmissionHeader";
 	private static final String INSERT_QUERY = "INSERT INTO fddcases (state, patId, dtSpec) VALUES (:state, :patId, :dtSpec)";
 
 

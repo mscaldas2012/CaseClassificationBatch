@@ -2,25 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
-        <module name="CaseClassificationBatch" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.10/625fc0055674dff70dbc76efa36d0f2c89b04a24/lombok-1.18.10.jar" />
+        </processorPath>
+        <module name="CaseClassificationBatch.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="batch-processing" target="1.8" />
-      <module name="CaseClassificationBatch" target="1.8" />
-      <module name="CaseClassificationBatch.main" target="1.8" />
-      <module name="CaseClassificationBatch.test" target="1.8" />
-    </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="CaseClassificationBatch" options="-parameters" />
-      <module name="batch-processing" options="-parameters" />
-    </option>
   </component>
 </project>

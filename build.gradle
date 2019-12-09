@@ -17,6 +17,9 @@ dependencies {
 	// runtimeOnly 'org.hsqldb:hsqldb'
 	// https://mvnrepository.com/artifact/com.h2database/h2
 	runtime group: 'com.h2database', name: 'h2', version: '1.4.200'
+	// https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc
+	runtime group: 'com.microsoft.sqlserver', name: 'mssql-jdbc', version: '8.1.0.jre8-preview'
+
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.batch:spring-batch-test'
